@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-09-04 20:58+0200\n"
-"PO-Revision-Date: 2023-07-24 00:59+0900\n"
+"PO-Revision-Date: 2025-07-20 07:22+0900\n"
 "Last-Translator: maboroshin <pc.genkaku.in>\n"
 "Language-Team: \n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2.3\n"
-"X-Poedit-Basepath: .\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.6\n"
+"X-Poedit-Basepath: .\n"
 
 #: data/com.vixalien.muzika.desktop.in:3
 #: data/com.vixalien.muzika.appdata.xml.in.in:6
@@ -91,35 +91,35 @@ msgstr "プレイヤーの音量"
 
 #: data/com.vixalien.muzika.gschema.xml:37
 msgid "Muted"
-msgstr ""
+msgstr "ミュート"
 
 #: data/com.vixalien.muzika.gschema.xml:38
 msgid "Whether to mute all media"
-msgstr ""
+msgstr "すべてのメディアをミュートにするかどうか"
 
 #: data/com.vixalien.muzika.gschema.xml:42
 msgid "Last width & height of window"
-msgstr ""
+msgstr "最後のウィンドウの幅と高さ"
 
 #: data/com.vixalien.muzika.gschema.xml:43
 msgid "The saved last size of the window (to be restored)"
-msgstr ""
+msgstr "保存した最後のウィンドウのサイズ (復元する)"
 
 #: data/com.vixalien.muzika.gschema.xml:47
 msgid "Audio Quality"
-msgstr ""
+msgstr "音質"
 
 #: data/com.vixalien.muzika.gschema.xml:48
 msgid "Preferred audio quality."
-msgstr ""
+msgstr "好みの音質"
 
 #: data/com.vixalien.muzika.gschema.xml:52
 msgid "Video Quality"
-msgstr ""
+msgstr "画質"
 
 #: data/com.vixalien.muzika.gschema.xml:53
 msgid "Preferred video quality."
-msgstr ""
+msgstr "好みの画質"
 
 #: data/ui/components/carousel/carousel.blp:44
 #: data/ui/components/search/section.blp:23 data/ui/pages/artist.blp:64
@@ -289,11 +289,11 @@ msgstr "エラー詳細"
 #: data/ui/pages/channel.blp:57 src/pages/channel.ts:95
 #: src/pages/channel.ts:100
 msgid "Last 7 days"
-msgstr ""
+msgstr "直近7日"
 
 #: data/ui/pages/channel.blp:65
 msgid "Songs on Repeat"
-msgstr ""
+msgstr "曲をリピート"
 
 #: data/ui/pages/error.blp:8
 msgid "An error occurred"
@@ -301,15 +301,15 @@ msgstr "エラーが発生しました"
 
 #: data/ui/pages/explore.blp:40
 msgid "New releases"
-msgstr ""
+msgstr "新作"
 
 #: data/ui/pages/explore.blp:52 src/endpoints.ts:123
 msgid "Charts"
-msgstr ""
+msgstr "チャート"
 
 #: data/ui/pages/explore.blp:64 src/endpoints.ts:129 src/pages/explore.ts:48
 msgid "Moods and genres"
-msgstr ""
+msgstr "ムードとジャンル"
 
 #: data/ui/pages/login.blp:14
 msgid "Login"
@@ -345,7 +345,7 @@ msgstr "違う検索語句を試そう"
 
 #: data/ui/window.blp:35
 msgid "Navigation"
-msgstr ""
+msgstr "ナビ"
 
 #: data/ui/window.blp:117
 msgid "Log In"
@@ -559,26 +559,24 @@ msgid "Library Songs"
 msgstr "ライブラリ 曲"
 
 #: src/endpoints.ts:99
-#, fuzzy
 msgid "Artist Albums"
-msgstr "アーティスト"
+msgstr "アーティストのアルバム"
 
 #: src/endpoints.ts:105
 msgid "Channel"
-msgstr ""
+msgstr "チャンネル"
 
 #: src/endpoints.ts:111
-#, fuzzy
 msgid "Channel Playlists"
-msgstr "すべての再生リスト"
+msgstr "チャンネルの再生リスト"
 
 #: src/endpoints.ts:135
 msgid "Mood"
-msgstr ""
+msgstr "ムード"
 
 #: src/endpoints.ts:141
 msgid "New Releases"
-msgstr ""
+msgstr "新作"
 
 #: src/pages/album.ts:89
 msgid "Other versions"
@@ -614,31 +612,29 @@ msgstr "ファンの間で人気"
 
 #: src/pages/channel.ts:94
 msgid "Artists on repeat"
-msgstr ""
+msgstr "アーティストをリピード"
 
 #: src/pages/channel.ts:99
-#, fuzzy
 msgid "Playlists on repeat"
-msgstr "再生リスト"
+msgstr "再生リストをリピート"
 
 #: src/pages/charts.ts:75 src/pages/explore.ts:47
-#, fuzzy
 msgid "Top songs"
 msgstr "上位の曲"
 
 #: src/pages/charts.ts:77
 msgid "Top music videos"
-msgstr ""
+msgstr "上位のミュージックビデオ"
 
 #. TODO: Top artists
 #. this.add_carousel(_("Top artists"), charts.results.artists, true);
 #: src/pages/charts.ts:84
 msgid "Genres"
-msgstr ""
+msgstr "ジャンル"
 
 #: src/pages/charts.ts:85 src/pages/explore.ts:49
 msgid "Trending"
-msgstr ""
+msgstr "急上昇"
 
 #: src/pages/authentication-error.ts:71
 msgid ""
@@ -656,7 +652,7 @@ msgstr "不明のエラー"
 #. TODO: New albums & singles more
 #: src/pages/explore.ts:46
 msgid "New albums & singles"
-msgstr ""
+msgstr "新作アルバム&シングル"
 
 #: src/pages/library/base.ts:14
 msgid "Recent activity"
@@ -668,7 +664,7 @@ msgstr "最近追加した"
 
 #: src/pages/library/base.ts:16
 msgid "Recently played"
-msgstr "最近再生した"
+msgstr "最近聴いた"
 
 #: src/pages/library/base.ts:21
 msgid "A to Z"
